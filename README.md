@@ -1,5 +1,8 @@
 # oak-cameras-repo
 
+![1b7194b7c4a79d3c471d3645b0d0a2c8_original](https://user-images.githubusercontent.com/21957723/111654915-6b653000-87c6-11eb-9e5b-b6525eba000c.png)
+
+
 The Oak-1 and Oak-D cameras have built-in chips for artificial intelligence, eliminating the security, latency and cost issues found in cloud based inferencing. The cameras can determine where objects are located in the space around them, as well as their trajectory, in real time. The cameras feature built-in Intel Myriad X chips for running the machine learning inferencing locally.  This Repo shows you how to use these amazing cameras with the alwaysAI platform providing powerful easy to use option for them to create commercial products.
 
 
