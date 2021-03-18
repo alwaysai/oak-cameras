@@ -5,6 +5,8 @@
 
 The Oak-1 and Oak-D cameras have built-in chips for artificial intelligence, eliminating the security, latency and cost issues found in cloud based inferencing. The cameras can determine where objects are located in the space around them, as well as their trajectory, in real time. The cameras feature built-in Intel Myriad X chips for running the machine learning inferencing locally.  This Repo shows you how to use these amazing cameras with the alwaysAI platform providing powerful easy to use option for them to create commercial products.
 
+![Oak-D](https://user-images.githubusercontent.com/21957723/111655445-e4fd1e00-87c6-11eb-9b3f-714a950434a0.png)
+
 
 The Oak camera hardware (both models) includes a 12-megapixel auto-focus camera sensor with a wide horizontal field of view up to 4056 x 3040 resolution. The raw video output is at up to 4K/60fps with hardware 4K H.265 video encoding.  The Oak-D in addition to the main camera sensor that both models share provides spatial AI leveraging stereo depth.   
 
