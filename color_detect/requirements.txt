@@ -1,0 +1,2 @@
+# Python dependencies for your application can be declared here and they will be installed in the runtime container.
+pandas

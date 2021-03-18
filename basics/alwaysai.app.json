@@ -1,0 +1,8 @@
+{
+  "models": {
+    "alwaysai/face_detection_0200_oak": 1
+  },
+  "scripts": {
+    "start": "python app.py"
+  }
+}
