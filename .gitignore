@@ -112,3 +112,7 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+alwaysai.target.json
+alwaysai.project.json
+models
