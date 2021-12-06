@@ -12,6 +12,7 @@ Oak camera (Oak-1 & Oak-D)
 """
 import time
 import edgeiq
+from edgeiq import oak
 
 
 def face_enters(object_id, prediction):
@@ -42,7 +43,7 @@ def main():
     fps = edgeiq.FPS()
 
     try:
-        with edgeiq.Oak('alwaysai/face_detection_0200_oak',
+        with edgeiq.oak.Oak('alwaysai/face_detection_0200_oak',
                         sensor=edgeiq.Sensor.res_1080,
                         video_mode=edgeiq.VideoMode.preview) as oak_camera, \
                         edgeiq.Streamer() as streamer:

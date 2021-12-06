@@ -11,8 +11,9 @@ Note: This application is designed to use models compiled for the usage with
 Oak camera (Oak-1 & Oak-D)
 """
 import time
-import edgeiq
 import pandas as pd
+import edgeiq
+from edgeiq import oak
 
 
 # declaring global variables
@@ -44,7 +45,7 @@ def main():
     fps = edgeiq.FPS()
 
     try:
-        with edgeiq.Oak('alwaysai/ssd_v2_coco_oak') as oak_camera,\
+        with edgeiq.oak.Oak('alwaysai/ssd_v2_coco_oak') as oak_camera,\
                 edgeiq.Streamer() as streamer:
             # Allow Oak camera to warm up
             time.sleep(2.0)
